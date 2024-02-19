@@ -101,6 +101,7 @@ public class AircraftsSteps {
 //        var response = apiCalls.doPost(SC_CREATED, AircraftDto.class, data, PATH);
 //        storage.setLastApiCallSingleItemResponse(response);
 //    }
+//
 
     @When("1 client gets details of Aircraft number of seats={int}")
     public void getByNos(Integer seats) {
